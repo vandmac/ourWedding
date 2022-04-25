@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Charm', cursive;s
+  font-family: 'Charm', cursive;
 }
 
 p {
@@ -25,15 +25,18 @@ div.text {
   font-size: 40px;
   font-weight: 700;
 }
-div h2{
+div h2 {
   font-size: 32px;
   text-align: center;
 }
 
-img{
-  transform: translateX(50%);
-  width:50%;
+img {
+  /* transform: translateX(50%); */
+  width: 400px;
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div#countdown {
