@@ -5,6 +5,13 @@
   font-family: 'Charm', cursive;
 }
 
+.photos {
+  display:block;  
+  height: 100px;
+  align-content: center;
+  margin:auto;
+}
+
 p {
   text-align: center;
   text-transform: uppercase;
@@ -32,7 +39,8 @@ div h2 {
 
 img {
   /* transform: translateX(50%); */
-  width: 400px;
+  width: 200px;
+  height:200px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
